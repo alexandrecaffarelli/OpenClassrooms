@@ -279,3 +279,70 @@ footer h1
     text-decoration: none;
     color: #760001;
 }
+
+@media all and (max-width: 1024px)
+{
+	#bloc_page
+	{
+		width: auto;
+	}
+	
+	nav
+	{
+		width: auto;
+		text-align: left;
+	}
+
+	nav ul
+	{
+		flex-direction: column;
+	}
+
+	nav li
+	{
+		padding-left: 4px;
+	}
+
+	nav a
+	{
+		font-size: 1.1em;
+	}
+
+	nav a:hover
+	{
+		border-bottom: 0; 
+	}	
+	
+	#banniere_image
+	{
+		display: none;
+	}
+	
+	article, aside
+    {
+        width: auto;
+        margin-bottom: 15px;
+    }
+
+	section 
+	{
+		flex-direction: column;
+	}
+
+	#photo_zozor img
+	{
+		width: 110px;
+		margin-left: 15px;
+		float: right;
+	}
+
+	#fleche_bulle
+	{
+		display: none;
+	}
+
+	aside p:last-child
+	{
+		text-align: center;
+	}
+}
